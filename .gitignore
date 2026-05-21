@@ -1,0 +1,5 @@
+﻿node_modules/
+physioapp/target/
+physioapp-frontend/node_modules/
+physioapp-frontend/dist/
+*.rar
