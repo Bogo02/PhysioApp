@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #f8fdf8;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent,
+    transparent 20px,
+    rgba(45, 106, 45, 0.04) 20px,
+    rgba(45, 106, 45, 0.04) 21px
+  );
+  color: #1a1a2e;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 1.6;
+}
+
+button {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 500;
+  transition: opacity 0.2s ease;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+a {
+  color: #2d6a2d;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2d6a2d;
+  border-radius: 3px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #2d6a2d !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #2d6a2d !important;
+}
+
+.hex-bg {
+  background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg ... %3Cpath fill='none' stroke='%232d6a2d' stroke-width='1' d='...'/%3E%3C/svg%3E");}

@@ -25,7 +25,7 @@ function Dashboard() {
         <div>
             <nav style={{
                 display: 'flex', justifyContent: 'space-between', alignItems: 'ceneter',
-                padding: '1rem 2rem',background: '#1a3a6b', color: 'white'
+                padding: '1rem 2rem',background: '#2d6a2d', color: 'white'
             }}>
                 <h2 style={{margin: 0}}>AFYMO</h2>
                 <div style={{ display: 'flex', gap: '1rem',alignItems: 'center'}}>
@@ -39,7 +39,7 @@ function Dashboard() {
                  border: '1px solid white', borderRadius: '4px', cursor:'pointer'
                 }}>Profile</button>
                 <button onClick={handleLogout} style={{
-                    padding: '0.5rem 1rem', background: 'white', color: '#1a3a6b',
+                    padding: '0.5rem 1rem', background: 'white', color: '#2d6a2d',
                     border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold'
                 }}>Logout</button>
                 </div>
@@ -50,7 +50,7 @@ function Dashboard() {
 
         <div style={{ display: 'flex', gap: '1rem', marginTop: '1rem', flexWrap: 'wrap' }}>
           <div onClick={() => navigate('/appointments')} style={{
-            background: '#1a3a6b', color: 'white', padding: '1.5rem', borderRadius: '8px',
+            background: '#2d6a2d', color: 'white', padding: '1.5rem', borderRadius: '8px',
             cursor: 'pointer', width: '200px', textAlign: 'center'
           }}>
             <h3 style={{ margin: 0 }}>📅 My Appointments</h3>
@@ -64,7 +64,7 @@ function Dashboard() {
             <p style={{ margin: '0.5rem 0 0' }}>Schedule a new visit</p>
           </div>
           <div onClick={() => navigate('/profile')} style={{
-            background: '#4a6fa5', color: 'white', padding: '1.5rem', borderRadius: '8px',
+            background: '#3d8b3d', color: 'white', padding: '1.5rem', borderRadius: '8px',
             cursor: 'pointer', width: '200px', textAlign: 'center'
           }}>
             <h3 style={{ margin: 0 }}>👤 My Profile</h3>
@@ -80,7 +80,7 @@ function Dashboard() {
           }}>
             <p>No upcoming appointments yet.</p>
             <button onClick={() => navigate('/appointments/book')} style={{
-              padding: '0.75rem 1.5rem', background: '#1a3a6b', color: 'white',
+              padding: '0.75rem 1.5rem', background: '#2d6a2d', color: 'white',
               border: 'none', borderRadius: '4px', cursor: 'pointer'
             }}>Book your first appointment</button>
           </div>

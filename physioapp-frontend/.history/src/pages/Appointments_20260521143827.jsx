@@ -27,7 +27,7 @@ return (
     <div>
       <nav style={{
         display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-        padding: '1rem 2rem', background: '#1a3a6b', color: 'white'
+        padding: '1rem 2rem', background: '#2d6a2d', color: 'white'
       }}>
         <h2 style={{ margin: 0, cursor: 'pointer' }} onClick={() => navigate('/dashboard')}>Cabinet Marcel</h2>
         <div style={{ display: 'flex', gap: '1rem' }}>
@@ -36,7 +36,7 @@ return (
             border: '1px solid white', borderRadius: '4px', cursor: 'pointer'
           }}>Dashboard</button>
           <button onClick={() => navigate('/appointments/book')} style={{
-            padding: '0.5rem 1rem', background: 'white', color: '#1a3a6b',
+            padding: '0.5rem 1rem', background: 'white', color: '#2d6a2d',
             border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold'
           }}>+ Book New</button>
         </div>
@@ -51,7 +51,7 @@ return (
           }}>
             <p>You have no appointments yet.</p>
             <button onClick={() => navigate('/appointments/book')} style={{
-              padding: '0.75rem 1.5rem', background: '#1a3a6b', color: 'white',
+              padding: '0.75rem 1.5rem', background: '#2d6a2d', color: 'white',
               border: 'none', borderRadius: '4px', cursor: 'pointer'
             }}>Book an Appointment</button>
           </div>

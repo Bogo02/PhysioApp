@@ -39,7 +39,7 @@ function BookAppointment() {
     <div>
       <nav style={{
         display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-        padding: '1rem 2rem', background: '#1a3a6b', color: 'white'
+        padding: '1rem 2rem', background: '#2d6a2d', color: 'white'
       }}>
         <h2 style={{ margin: 0, cursor: 'pointer' }} onClick={() => navigate('/dashboard')}>Cabinet Marcel</h2>
         <button onClick={() => navigate('/appointments')} style={{
@@ -84,7 +84,7 @@ function BookAppointment() {
               style={{ display: 'block', width: '100%', padding: '0.5rem', marginTop: '0.25rem', height: '80px' }} />
           </div>
           <button type="submit" style={{
-            width: '100%', padding: '0.75rem', background: '#1a3a6b',
+            width: '100%', padding: '0.75rem', background: '#2d6a2d',
             color: 'white', border: 'none', borderRadius: '4px', cursor: 'pointer'
           }}>Book Appointment</button>
         </form>
