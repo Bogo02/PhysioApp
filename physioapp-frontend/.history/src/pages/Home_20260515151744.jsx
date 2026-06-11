@@ -30,7 +30,7 @@ function Home() {
             {/*Navbar*/}
         <nav style={{
             display:'flex',justifyContent:'space-between', alignItems: center,
-            padding: '1rem 2 rem', background: '#1a3a6b',color: 'white', position: 'sticky',top:0,zIndex:100
+            padding: '1rem 2 rem', background: '#2d6a2d',color: 'white', position: 'sticky',top:0,zIndex:100
         }}>
         <h2 style={{margin:0}}>AFYMO</h2>
         <div style={{display: 'flex', gap:'1rem'}}>
@@ -39,7 +39,7 @@ function Home() {
             border: '1px solid white', borderRadius: '4px', cursor: 'pointer'
          }}>Login</button>
          <button onClick={() =>navigate('/register')} style={{
-            padding: '0.5rem 1.25rem',background:'white',color: '#1a3a6b',
+            padding: '0.5rem 1.25rem',background:'white',color: '#2d6a2d',
             border: 'none', borderRadius: '4px', cursor: 'pointer', fontWeight: 'bold'
          }}>Register</button>
         </div>
@@ -72,7 +72,7 @@ function Home() {
                 <h1 style= {{margin: 0, fontSize: '2.2rem'}}>{slides.title}</h1>
                 <p style ={{fontSize: '1.2rem', marginTop: '0.5rem'}}>{slides.subtitle}</p>
                 <button onClick={() => navigate('/register')} style={{
-                    marginTop: '1rem', padding: '0.75rem 2rem', backgroiund: '#1a3a6b',
+                    marginTop: '1rem', padding: '0.75rem 2rem', backgroiund: '#2d6a2d',
                     color: 'white', border: 'none', borderRadius:'4px', cursor: 'pointer'
                     fontSize:'1rem', fontWeight: 'bold'
                 }}>Book an Appointment</button>
@@ -84,7 +84,7 @@ function Home() {
 
     {/*Services Section*/}
     <div style= {{padding: '3rem 2rem',textAlign:'center', background: '#f8faff'}}>
-       <h2 style={{color: '#1a3a6b', marginBottom: '2rem'}}>Our Services</h2>
+       <h2 style={{color: '#2d6a2d', marginBottom: '2rem'}}>Our Services</h2>
        <div style={{display: 'flex',justifyContent: 'center',gap: '2rem', flexwrap: 'wrap'}}>
         {[
             { title: 'Sports Recovery', desc: 'Specialized treatment for sports injuries and post-injury recovery.' },

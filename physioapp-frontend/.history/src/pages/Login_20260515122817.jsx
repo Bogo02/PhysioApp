@@ -47,7 +47,7 @@ return (
         style={{display: 'block',width: '100%',padding:'0.5rem',marginTop: '0.25rem'}}
         />
         </div>
-        <button type = "submit" style ={{width: '100%', padding: '0.75rem',background: '#1a3a6b',color: 'white',border:'none',borderRadius: '4px', cursor: 'pointer'}}>
+        <button type = "submit" style ={{width: '100%', padding: '0.75rem',background: '#2d6a2d',color: 'white',border:'none',borderRadius: '4px', cursor: 'pointer'}}>
             Login
         </button>
     </form>

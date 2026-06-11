@@ -22,7 +22,7 @@ function Profile() {
     <div>
       <nav style={{
         display: 'flex', justifyContent: 'space-between', alignItems: 'center',
-        padding: '1rem 2rem', background: '#1a3a6b', color: 'white'
+        padding: '1rem 2rem', background: '#2d6a2d', color: 'white'
       }}>
         <h2 style={{ margin: 0, cursor: 'pointer' }} onClick={() => navigate('/dashboard')}>Cabinet Marcel</h2>
         <button onClick={() => navigate('/dashboard')} style={{
@@ -43,7 +43,7 @@ function Profile() {
         </div>
         <div style={{ marginTop: '2rem', display: 'flex', gap: '1rem' }}>
           <button onClick={() => navigate('/appointments')} style={{
-            padding: '0.75rem 1.5rem', background: '#1a3a6b', color: 'white',
+            padding: '0.75rem 1.5rem', background: '#2d6a2d', color: 'white',
             border: 'none', borderRadius: '4px', cursor: 'pointer'
           }}>My Appointments</button>
           <button onClick={handleLogout} style={{

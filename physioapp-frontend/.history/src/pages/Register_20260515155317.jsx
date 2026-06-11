@@ -28,7 +28,7 @@ function Register() {
     }
     
     return (
-        <div style={{ padding: '1rem 2rem', background: '#1a3a6b' }}>
+        <div style={{ padding: '1rem 2rem', background: '#2d6a2d' }}>
         <a href="/" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}>← Home</a>
         <div style = {{maxWidth: '400px',margin: '100px auto',padding:'2rem',border:'1px solid #ccc', borderRadius: '8px'}}>
             <h2>Register</h2>
@@ -70,7 +70,7 @@ function Register() {
                 style={{display:'block',width:'100%',padding: '0.5rem', marginTop: '0.25rem' }}
                 />
             </div>
-            <button type="submit" style={{width:'100%', padding: '0.75rem', background: '#1a3a6b',color:'white',border: 'none', borderRadius: '4px',cursor: 'pointer'}}>
+            <button type="submit" style={{width:'100%', padding: '0.75rem', background: '#2d6a2d',color:'white',border: 'none', borderRadius: '4px',cursor: 'pointer'}}>
                 Register
             </button>   
             </form>
